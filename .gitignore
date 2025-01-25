@@ -127,6 +127,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.myenv_Data_Engineering_Pretest
 
 # Spyder project settings
 .spyderproject

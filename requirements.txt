@@ -1,0 +1,11 @@
+pandas
+requests
+sqlalchemy
+python-dotenv
+psycopg2
+matplotlib
+numpy
+scikit-learn
+seaborn
+
+
