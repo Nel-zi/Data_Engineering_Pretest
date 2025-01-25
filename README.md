@@ -10,36 +10,32 @@ This documentation provides guidance on setting up, running, and understanding t
 
 Before proceeding, ensure you have the following installed:
 - **Python** (version 3.8 or higher)
-- **PostgreSQL** (for database integration)
 - **Git** (if cloning the repository)
 - A code editor or IDE (e.g., VS Code, PyCharm)
 
 ---
 
 ### **2. Directory Structure**
-Here is an example of how the project directory is organized:
+Here is an how the project directory is organized:
 
 ```
 project-directory/
 │
-├── data/
+├── Raw_datasets/
 │   ├── items.csv
 │   ├── promotion.csv
 │   ├── sales.csv
 │   ├── supermarkets.csv
 │
 ├── src/
-│   ├── main.py         # Main script for running analysis
-│   ├── database.py     # Handles database operations
-│   ├── data_cleaning.py # Functions for cleaning datasets
-│   ├── analysis.py     # Business insights logic
-│   └── visualization.py # Visualization functions
+│   ├── Data_Engineering_Pretest.ipynb  # Main script for running analysis
+│   ├── Clean_data.py # Functions for cleaning datasets
 │
 ├── requirements.txt    # List of dependencies
 ├── .env                # Environment variables (e.g., database credentials)
 ├── README.md           # Project overview and usage
-└── docs/
-    └── report.pdf      # Final report detailing tasks and insights
+└── Report
+    └── Report on Data Engineering Pretest.pdf   # Final report detailing tasks and insights
 ```
 
 ---
